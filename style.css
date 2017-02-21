@@ -8,53 +8,53 @@
 }
 
 @font-face {
-	font-family: "Circular Std";
+	font-family: "Circular Std", "Helvetica";
 	src: url('fonts/CircularStd-Medium.eot') format('eot');
 	font-weight: normal;
 	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
 
 @font-face {
-	font-family: "Circular Std";
+	font-family: "Circular Std", "Helvetica";
 	font-weight: bold;
 	src: url('CircularStd-Bold.eot') format('eot');
 }
 
 @font-face {
-	font-family: "Myriad Pro";
+	font-family: "Myriad Pro", "Helvetica";
 	src: url('fonts/MyriadPro-Regular.eot') format('eot');
 	font-weight: normal;
 	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
-	font-family: "Myriad Pro";
+	font-family: "Myriad Pro", "Helvetica";
 	font-weight: bold;
 	src: url('fonts/MyriadPro-Bold.eot') format('eot');
 }
 
 @font-face {
-	font-family: "Circular Std";
+	font-family: "Circular Std", "Helvetica";
 	src: url('fonts/CircularStd-Medium.ttf') format('ttf');
 	font-weight: normal;
 	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
 
 @font-face {
-	font-family: "Circular Std";
+	font-family: "Circular Std", "Helvetica";
 	font-weight: bold;
 	src: url('CircularStd-Bold.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: "Myriad Pro";
+	font-family: "Myriad Pro", "Helvetica";
 	src: url('fonts/MyriadPro-Regular.ttf') format('ttf');
 	font-weight: normal;
 	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
-	font-family: "Myriad Pro";
+	font-family: "Myriad Pro", "Helvetica";
 	font-weight: bold;
 	src: url('fonts/MyriadPro-Bold.ttf') format('ttf');
 }
