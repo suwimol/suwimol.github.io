@@ -17,7 +17,7 @@
 @font-face {
 	font-family: "Circular Std";
 	font-weight: bold;
-	src: url('fonts/CircularStd-Bold.eot') format('eot');
+	src: url('CircularStd-Bold.eot') format('eot');
 }
 
 @font-face {
@@ -43,7 +43,7 @@
 @font-face {
 	font-family: "Circular Std";
 	font-weight: bold;
-	src: url('fonts/CircularStd-Bold.ttf') format('ttf');
+	src: url('CircularStd-Bold.ttf') format('ttf');
 }
 
 @font-face {
