@@ -9,28 +9,55 @@
 
 @font-face {
 	font-family: "Circular Std";
-	src: url('fonts/CircularStd-Medium.eot') format('embeded-opentype'),
-	url('fonts/CircularStd-Medium.eot') format('opentype');
+	src: url('fonts/CircularStd-Medium.eot') format('eot');
+	font-weight: normal;
+	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
 
 @font-face {
 	font-family: "Circular Std";
 	font-weight: bold;
-	src: url('fonts/CircularStd-Bold.eot') format('opentype');
+	src: url('fonts/CircularStd-Bold.eot') format('eot');
 }
 
 @font-face {
 	font-family: "Myriad Pro";
-	src: url('fonts/MyriadPro-Regular.eot') format('embeded-opentype'),
-	url('fonts/MyriadPro-Regular.eot') format('opentype');
+	src: url('fonts/MyriadPro-Regular.eot') format('eot');
+	font-weight: normal;
+	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
 	font-family: "Myriad Pro";
 	font-weight: bold;
-	src: url('fonts/MyriadPro-Bold.eot') format('opentype');
+	src: url('fonts/MyriadPro-Bold.eot') format('eot');
 }
 
+@font-face {
+	font-family: "Circular Std";
+	src: url('fonts/CircularStd-Medium.ttf') format('ttf');
+	font-weight: normal;
+	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
+}
+
+@font-face {
+	font-family: "Circular Std";
+	font-weight: bold;
+	src: url('fonts/CircularStd-Bold.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: "Myriad Pro";
+	src: url('fonts/MyriadPro-Regular.ttf') format('ttf');
+	font-weight: normal;
+	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
+}
+
+@font-face {
+	font-family: "Myriad Pro";
+	font-weight: bold;
+	src: url('fonts/MyriadPro-Bold.ttf') format('ttf');
+}
 
 
 .patt {
