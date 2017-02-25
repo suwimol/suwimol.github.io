@@ -26,8 +26,8 @@
 
 @font-face {
 	font-family: myFontBold;
-	src: url('CircularStd-Bold.ttf');
 	src: url('CircularStd-Bold.eot');
+	src: url('CircularStd-Bold.ttf');
 	font-weight: bold;
 	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
@@ -407,7 +407,6 @@ div.test {
 }
 
 p2 {
-	font-weight: bold;
 	font-size: 14px;
 	font-family: myFontBold, Helvetica, Arial;
 
