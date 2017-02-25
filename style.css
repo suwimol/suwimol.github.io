@@ -409,7 +409,7 @@ div.test {
 p2 {
 	font-weight: bold;
 	font-size: 14px;
-	font-family: "Circular Std";
+	font-family: myFontBold, Helvetica, Arial;
 
 }
 
