@@ -2,8 +2,8 @@
 
 @font-face {
 	font-family: myFont;
-	src: url('CircularStd-Medium.eot');
-	src: url('CircularStd-Medium.ttf');
+	src: url('CircularStd-Book.eot');
+	src: url('CircularStd-Book.ttf');
 	font-weight: normal;
 	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
@@ -733,7 +733,7 @@ a {
 
 p3 {
 	font-size: 70px;
-	font-family: myFontOne, Helvetica;
+	font-family: myFontTwo, Helvetica;
 	color: white;
 	font-weight: normal;
 }
@@ -753,6 +753,7 @@ p5 {
 	/*text-shadow: 2px 2px #ff0000;*/
 }
 
+
 #background h3, #tech h3 {
 	text-align: center;
 	background-color: #233F90;
@@ -761,7 +762,6 @@ p5 {
 	margin-top: 0%;
 	font-size: 16px;
 	font-family: myFontOne;
-	/*float: ;*/
 	margin: 0 auto;
 }
 
