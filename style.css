@@ -2,14 +2,16 @@
 
 @font-face {
 	font-family: myFont;
-	src: url('fonts/CircularStd-Medium.eot');
+	src: url('CircularStd-Medium.eot');
+	src: url('CircularStd-Medium.eot');
 	font-weight: normal;
 	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
 
 @font-face {
 	font-family: myFontOne;
-	src: url('fonts/MyriadPro-Regular.eot');
+	src: url('MyriadPro-Regular.eot');
+	src: url('MyriadPro-Regular.ttf');
 	font-weight: normal;
 	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
@@ -452,7 +454,8 @@ d0 {
 
 d1 {
 	font-size: 14px;
-	font-family: "Circular Std";
+	/*font-family: "Circular Std";*/
+	font-family: myFont, Helvetica;
 	font-weight: normal;
 }
 
@@ -536,7 +539,8 @@ d1 {
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 3%;
-	font-family: "Myriad Pro";
+	/*font-family: "Myriad Pro";*/
+	font-family: myFontOne, Helvetica;
 	font-size: 14px;
 	/*text-shadow: 0.4px 0.4px black;*/
 	/*vertical-align: middle;*/
@@ -764,7 +768,7 @@ a {
 
 p3 {
 	font-size: 70px;
-	font-family: "Myriad Pro";
+	font-family: myFontOne, Helvetica;
 	color: white;
 	font-weight: normal;
 }
@@ -773,7 +777,7 @@ p5 {
 	font-weight: bold;
 	font-size: 70px;
 	/*font-family: "Code Bold";*/
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: white;
 	padding-left: 21%;
 	padding-top: 30%;
@@ -798,56 +802,57 @@ p5 {
 a1, a8 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a2 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a3 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a4, a9 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a5 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a6 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 a7 {
 	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	color: black;
 }
 
 b1 {
 	background-color: white;
 	color: black;
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
+	/*font-family: "Circular Std";*/
 	padding: 0.5% 1.5% 0.5% 1.5%;
 /*	border-color: #9B9B9B;*/
 	/*border-style: double;*/
@@ -925,7 +930,7 @@ a7:hover {
 
 
 p6 {
-	font-family: "Circular Std";
+	font-family: myFont, Helvetica;
 	/*font-style: oblique;*/
 	color: white;
 	font-size: 14px;
@@ -997,7 +1002,7 @@ d3 {
 
 .my-navbar, .navbar, .nav, .navbar-nav, .navbar-default {
 	font-size: 10px;
-	font-family: "Droidiga";
+	font-family: "Droidiga", Helvetica;
 	float: right;
 	right: 0px;
 }
