@@ -1,0 +1,73 @@
+import java.io.*;
+import java.util.*;
+
+public class TugOfWar {
+    static List<Integer> allMembers = new ArrayList<Integer>();
+    static int tt1 = allMembers.size();
+    static int tt1NumPeople = 0;
+    
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int n = 0;
+        int sum = 0;
+        while (sc.hasNext() && sum <= 80 && n <= 80) {
+            int next = sc.nextInt();
+            allMembers.add(next);
+            sum = sum + next;
+            n++;
+        }
+        
+        int[] result = solveTUW(allMembers, num);
+        System.out.println(result.length);
+        for (int j = 0; j < result.length; j++) {
+            if (j == result.length-1) {
+                System.out.print(result[j]);
+            } else {
+                System.out.print(result[j] + " ");
+            }
+            
+        }
+        
+        //System.out.println(result.count + " " + rightSkyline);
+    }
+    
+    public static int[] solveTUW(List<Integer> weight, int k) {
+        assert k > 0 && weight.size() >= k;
+        final int[] sums = new int[weight.size()];
+        sums[0] = weight.get(0);
+        
+        for (int i = 1; i < weight.size(); i++) {
+            sums[i] = sums[i-1] + weight.get(i);
+        }
+        
+        final int[][] M = new int[weight.size()+1][k+1];
+        final int[][] D = new int[weight.size()+1][k+1];
+        
+        for (int n = 1; n <= weight.size(); n++) M[n][1] = sums[n-1];
+        for (int m = 1; m <= k; m++) M[1][m] = weight.get(0);
+        
+        for (int n = 2; n <= weight.size(); n++) {
+			for (int m = 2; m <= k; m++) {
+				M[n][m] = Integer.MAX_VALUE;
+				for (int x = 1; x < n; x++) {
+					final int largest = Math.max(M[x][m-1], sums[n-1]-sums[x-1]);
+					
+					if (largest < M[n][m]) {
+						M[n][m] = largest;
+						D[n][m] = x;
+					}
+				}
+			}
+		}
+		
+		int[] dividers = new int[k-1];
+		for (int m = k, n = weight.size(); m > 1; m--)
+			n = dividers[m - 2] = D[n][m];
+        return dividers;
+        
+    }
+    
+    
+}

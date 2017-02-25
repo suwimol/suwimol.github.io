@@ -1,10 +1,17 @@
-#body {
-/*	background-color: #DEDBF9;*/
-	color: black;
-	font-family: "Circular Std";
-	/*font-family: "Menlo";*/
-	text-align: center;
 
+
+@font-face {
+	font-family: myFont;
+	src: url('fonts/CircularStd-Medium.eot');
+	font-weight: normal;
+	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
+}
+
+@font-face {
+	font-family: myFontOne;
+	src: url('fonts/MyriadPro-Regular.eot');
+	font-weight: normal;
+	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
@@ -57,6 +64,15 @@
 	font-family: "Myriad Pro", "Helvetica";
 	font-weight: bold;
 	src: url('fonts/MyriadPro-Bold.ttf') format('ttf');
+}
+
+#body {
+/*	background-color: #DEDBF9;*/
+	color: black;
+	font-family: myFont;
+	/*font-family: "Menlo";*/
+	text-align: center;
+
 }
 
 
@@ -780,52 +796,52 @@ p5 {
 }
 
 a1, a8 {
-	background-color: #9EE8E3;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
 	color: black;
 }
 
 a2 {
-	background-color: #73FF5F;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
 	color: black;
 }
 
 a3 {
-	background-color: #F4ABFF;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
 	color: black;
 }
 
 a4, a9 {
-	background-color: #FFA655;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
 	color: black;
 }
 
 a5 {
-	background-color: #FF88C1;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
 	color: black;
 }
 
 a6 {
-	background-color: #3246BA;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
-	color: white;
+	color: black;
 }
 
 a7 {
-	background-color: #AFAF00;
+	background-color: white;
 	padding: 0.5% 1.5% 0.5% 1.5%;
 	font-family: "Circular Std";
-	color: white;
+	color: black;
 }
 
 b1 {
@@ -837,33 +853,33 @@ b1 {
 	/*border-style: double;*/
 }
 
-a1:hover, a8:hover {
-	background-color: #B6FCF5;
+a1:hover, a2:hover, a3:hover, a4:hover, a5:hover, a6:hover, a8:hover, a7:hover, b1:hover, a9:hover {
+	background-color: #F3F3F3;
 }
 
-a2:hover {
-	background-color: #AFFFA1;
+/*a2:hover {
+	background-color: #F3F3F3;
 }
 
 a3:hover {
-	background-color: #F4D0FC;
+	background-color: #F3F3F3;
 }
 
 a4:hover, a9:hover {
-	background-color: #FFC08D;
+	background-color: #F3F3F3;
 }
 
 a5:hover {
-	background-color: #FFA9D6;
+	background-color: #F3F3F3;
 }
 
 a6:hover {
-	background-color: #415CCE;
+	background-color: #F3F3F3;
 }
 
 a7:hover {
-	background-color: #D3D300;
-}
+	background-color: #F3F3F3;
+}*/
 
 #g1 {
 	background-image: url("github-logo-hov.png");
