@@ -5,7 +5,6 @@
 	src: url('CircularStd-Book.eot');
 	src: url('CircularStd-Book.ttf');
 	font-weight: normal;
-	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
 
 @font-face {
@@ -13,7 +12,6 @@
 	src: url('MyriadPro-Regular.eot');
 	src: url('MyriadPro-Regular.ttf');
 	font-weight: normal;
-	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
@@ -21,7 +19,6 @@
 	src: url('Myriad-Pro-Light_31642.eot');
 	src: url('Myriad-Pro-Light_31642.ttf');
 	font-weight: normal;
-	/*url('fonts/MyriadPro-Regular.eot') format('eot');*/
 }
 
 @font-face {
@@ -29,8 +26,16 @@
 	src: url('CircularStd-Bold.eot');
 	src: url('CircularStd-Bold.ttf');
 	font-weight: bold;
-	/*url('fonts/CircularStd-Medium.eot') format('opentype');*/
 }
+
+
+@font-face {
+	font-family: Droidiga;
+	src: url('Droidiga.eot');
+	font-weight: bold;
+}
+
+
 
 
 #body {
@@ -967,7 +972,7 @@ d3 {
 
 .my-navbar, .navbar, .nav, .navbar-nav, .navbar-default {
 	font-size: 10px;
-	font-family: "Droidiga", Helvetica;
+	font-family: Droidiga, Helvetica;
 	float: right;
 	right: 0px;
 }
