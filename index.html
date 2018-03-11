@@ -1,196 +1,251 @@
-	<!DOCTYPE html>
-	<div id="container">
-		<div id="header">
-			<head>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-				<link rel="icon" type="image/x-icon" href="logo.ico" />
-				<!-- Linking the HTML file to CSS -->
-				<link rel = "stylesheet" type="text/css" href="style.css"/>
-				<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-				<title> Suwimol Kamlangjai </title>
-
-				<!-- Latest compiled and minified CSS -->
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-				<!-- Optional theme -->
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-				<script type="text/javascript" src="main.js"></script>
-				<!-- <script type="text/javascript" src="javascript/jquery-3.1.1.min.j"></script> -->
-
-<!-- 				<script type="text/javascript">
- 
-						alert(1)
- 
-					</script> -->
-
-					<div class = "myclass"> 
-
-						<a href="index.html">
-							<div class="mylogo">
-								<!-- <img src="sue-icon.png" alt="mylogo" class="center"> -->
-							</div>
-
-						</a>
-						<!-- <img src="file:///Users/Meieing/Documents/sue-icon.png" style="width:150px;height:91px;">  -->
-
-						<!-- <div class= "box"> -->
-						<nav class="my-navbar navbar">
-							<div class="container-fluid">
-								<div class="navbar-header">
-									<!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
-								</div>
-								<ul class="nav navbar-nav">
-									<li class="active"><a href="#">H O M E</a></li>
-									<li><a href="#background">A B O U T</a></li>
-									<li><a href="#tech">T e c h s</a></li>
-									<li><a href="#projects">P R O J E C T S</a></li>
-									<li><a href="mailto:kamlangjai.s@husky.neu.edu">C O N T A C T</a></li>
-								</ul>
-							</div>
-						</nav>
-					</div>
-<!-- 
-</div> -->
-
-<div class="log">
-
-
-</div>
-
-
+  <!-- CSS link -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,700,900" rel="stylesheet">
 </head>
+<body>	
+ 
 
+<!-- Main -->
+<div class="row">
+    <!-- HELLO -->
+    <div class="col-sm-12 main">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container gap">
+          <h1 class="display-4">Hello.</h1>
+          <p class="descrp">My name is Suwimol Kamlangjai. Welcome to my website!</p>
+          <div class="avatar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- WHO I AM -->
+    <div class="col-md-12 col-sm-12">
+      <h1 id="about">About</h1>
+      <p id="about-detail" class="gap">
+        My name's Suwimol Kamlangjai , or you can call me Sue. I'm originally from Chanthaburi, Thailand . I studied in Bangalore, India for five years before coming to the United States for higher education. I'm currently pursuing my bachelor's degree of science in Computer Science at Northeastern University, Boston. I'm currently working on my personal website using CSS, HTML, JavaScript and Bootstrap as my main tools. I've also designed a website for a company using Adobe Systems products such as Photoshop, Illustrator and Dreamweaver. My past projects include games such as The Free cell solitaire game and The Music Editor. 
+      </p>
+    </div>
 
 </div>
 
-<div class="patt">
+<!-- Projects -->
+    <div class="row left-right-pad" id="projects">
+      <div class="col-med-12 col-sm-12"><h1>Projects</h1></div>
+      <!-- Project 1 -->
+      <div class="col-md-12 col-sm-12">
+        <h3>The Great (RGB) Color Game</h3>
+      </div>
+      <div class="col-md-6"><div class="proj1"></div></div>
+      <div class="col-md-6">
+        <p class="detail">This game is for you to test <span class="space">OR</span> revise your RGB color system knowledge!
+            It is the modified version of the project I have done from an online Web Development course. The new feature "Custom" has been added in this version so that the player can customize the difficulty level they want to take challege on.</p>
+            <!-- Pop up for projects -->
+            <button type="button" class="btn btn-primary standardBtn" data-toggle="modal" data-target="#myModal">
+              Read more
+            </button>
+            <a class="btn btn-primary btn-lg playNow" href="ColorGame/colorGame.html" target="_blank" role="button">Play now!</a>
 
-</div>
+            <div class="modal" id="myModal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">The Great RGB Color Game</h5>
+                    <button type="button" class="close standardBtn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="stripe">concepts</div><br>
+                    <p class="lead">This game is for you to test <span class="space">OR</span> revise your RGB color system knowledge!
+                      It is the modified version of the project I have done from an online Web Development course. The new feature "Custom" has been added in this version so that the player can customize the difficulty level they want to take challege on.
 
-<div id="body">
+                    </p>
+                    <div id="stripe">technology used</div><br>
+                    <p class="space">HTML5 <span id="grey">|</span> CSS <span id="grey">|</span> JavaScript </p>
 
-	<!-- THIS IS BACKGROUND -->
-
-
-	<body>
-	<div id="bodywrap">
-	<div id="w1">
-		
-	<div class="about-container"> 
-			<div class="wrap">
-				<div class="profile"> </div>
-			</div>
-
-			<p4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				<!-- <p5>Programmer<br>Designer<br></p5> -->
-				<p5><p3></p3> S u <p3>w i m o l</p3></p5><br>
-				<p6>Programmer&emsp;|&emsp;Designer&emsp;|&emsp;Explorer&emsp;|&emsp;Tech. Lover</p6>
-			</p4>
-
-			
-			<!-- <p1 id="test1">&emsp; &emsp; 
-
-				My name's <p2> Suwimol Kamlangjai </p2>, or you can call me Sue. I'm originally from Chanthaburi, <p2> Thailand </p2>. I went to study in Bangalore, <p2> India </p2> for five years before coming to the <p2> United States </p2> for higher education. I'm currently pursuing my bachelor's degree of science in <p2> Computer Science </p2>at <p2> Northeastern University</p2>, Boston. I'm currently working on my personal website using <p2>CSS</p2> and <p2>HTML</p2> and <p2>Bootstrap</p2> as my main tools. I've also designed a website for a company using <p2>Adobe Systems</p2> products such as Photoshop, Illustrator and Dreamweaver. My past projects in <p2>Java</p2> include games such as The Free cell solitaire game and The Music Editor.<br></br><br></br>
-
-			</p1> -->
-		</div>
-
-		<d3><p2>Email:</p2> kamlangjai.s[at]husky.neu.edu</d3>
-
-		<div class="info">
-		<div class="text_sec">
-			<div id="box">
-			<div id="background">
-			<h3>My Background</h3>
-			<p8> 
-
-			<br>&emsp;&emsp;My name's <p2> Suwimol Kamlangjai </p2>, or you can call me Sue. I'm originally from Chanthaburi, <p2> Thailand </p2>. I went to study in Bangalore, <p2> India </p2> for five years before coming to the <p2> United States </p2> for higher education. I'm currently pursuing my bachelor's degree of science in <p2> Computer Science </p2>at <p2> Northeastern University</p2>, Boston. I'm currently working on my personal website using <p2>CSS</p2>, <p2>HTML</p2> and <p2>Bootstrap</p2> as my main tools. I've also designed a website for a company using <p2>Adobe Systems</p2> products such as Photoshop, Illustrator and Dreamweaver. My past projects in <p2>Java</p2> include games such as The Free cell solitaire game and The Music Editor.<br><br>
-			</p8>
-			</div>
-
-			<div id="tech">
-			<h3>My Technologies</h3>
-			<p8>
-			<p2>Languages:<br>&emsp; <d1>&#8226; Proficient:&emsp;&emsp;</d1></p2><a1>Java</a1><br>&emsp;<d1> &#8226; Familiar: &emsp;</d1>&emsp; <a2>Racket</a2> &emsp; <a3>C/C++</a3> &emsp; <a4>Python</a4> &emsp; <a5>HTML/CSS</a5><br>
-			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; <a6> MIPS</a6> &emsp; <a7>LaTeX</a7><br>
-			<p2>Frameworks:</p2><br>&emsp;<d1> &#8226; Graphical User Interface (GUI):&emsp;&emsp;</d1> <a8>Swing</a8> &emsp; <a9>Bootstrap</a9><br>
-			<p2>Systems:</p2>&emsp;&emsp;<b1>Windows</b1> &emsp; <b1>Mac OSX</b1> &emsp; <b1>Linux/Unix</b1><br>
-			<p2>Software:</p2>		Eclipse, IntelliJ IDEA, Adobe Illustrator, Photoshop, Muse, Dreamweaver and InDesign<br>
-
-			</p8>
-
-			<div id="projects">
-			<h3>Projects</h3><br>
-			<p8> 
-
-			<p2>FreeCell Solitaire Game</p2>&emsp;<a1>Java</a1>&emsp;<d2>|&emsp;</d2><a target="_blank" href="https://github.com/suwimol/FreeCell/tree/master/cs3500" id="g1"></a><br>&emsp;&emsp;&#8226; designed using interface-implementation method (models and controllers)<br>
-			<p2>The Music Editor</p2>&emsp;<a1>Java</a1>&emsp;<d2>|&emsp;</d2><a target="_blank" href="https://github.com/suwimol/The-Music-Editor/tree/master/src/cs3500/music" id="g1"></a><br>&emsp;&emsp;&#8226; implemented MVC design pattern to allow users to visually add/remove music<br>&emsp;&emsp;notes<br>
-			<p2>Personal Website</p2>&emsp;<a5>HTML/CSS</a5>&emsp;<d2>|&emsp;</d2><a target="_blank" href="https://github.com/suwimol/suwimol.github.io" id="g1"></a>
-			<br>&emsp;&emsp;&#8226; designed responsive website that is compatible to all devices<br><br><br>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			</p8>
-
-			</div>
-
-	
-
-			</div>
-
-			
-			
+                    <div id="stripe">how to play</div><br>
+                    <p class="lead">The RGB colors will be generated randomly. Your task is to guess which square matches the given RGB color. If you guess it wrong, the incorrect square will disappear and you have to try again. Otherwise, you win!</p>
+                    <div id="stripe">Published</div><br>
+                    2018
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary btn-lg playNow" href="ColorGame/colorGame.html" target="_blank" role="button">Play now!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 
 
-		</div>
-	</div>
+    <!-- Project 2 -->
+    <div class="row left-right-pad">
+      <div class="col-md-12 col-sm-12">
+        <h3>The Music Editor</h3>
+      </div>
+      <div class="col-md-6"><div class="proj2"></div></div>
+      <div class="col-md-6">
+        <p class="detail">This is a music editor that plays music by parsing a file of notes. Its functionality includes the ability to add notes to a piece, remove notes from the piece, select pieces to implement repeats and to pause the music.</p>
+            <!-- Pop up for projects -->
+            <button type="button" class="btn btn-primary standardBtn" data-toggle="modal" data-target="#musicEditor">
+              Read more
+            </button>
+            <a class="btn btn-primary btn-lg playNow" href="https://github.com/suwimol/The-Music-Editor" target="_blank" role="button">View code</a>
 
-		</div>
+            <div class="modal" id="musicEditor" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">The Music Editor</h5>
+                    <button type="button" class="close standardBtn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="stripe">concepts</div><br>
+                    <p class="lead">The editor was built using the Model-View-Controller design patterns. My project partner and I developed the front and back end using Java with Java's swing being the library used to create the GUI. It was also great practice to work with the data structures needed for the model: hashmaps.</p>
+                    <div id="stripe">technology used</div><br>
+                    <p class="space">Java <span id="grey">|</span> Java's Swing <span id="grey">|</span> JUnit </p>
+                    <div id="stripe">Published</div><br>
+                    2016
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary btn-lg playNow" href="https://github.com/suwimol/The-Music-Editor" target="_blank" role="button">View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 
-		
+
+    <!-- Project 3 -->
+    <div class="row left-right-pad">
+      <div class="col-md-12 col-sm-12">
+        <h3>Yanmar dealer's website</h3>
+      </div>
+      <div class="col-md-6"><div class="proj3"></div></div>
+      <div class="col-md-6">
+        <p class="detail"><a href="https://www.yanmar.com/us/" target="_blank">Yanmar</a> is one of the most well-known brands for its construction and agricultural equipment. It was a great opportunity for me to design this website for a Yanmar dealer in Chanthaburi, Thailand to promote the products and services and nationally gain more sales and loyal customers.</p>
+        <!-- Pop up for projects -->
+        <button type="button" class="btn btn-primary standardBtn" data-toggle="modal" data-target="#companySite">
+          Read more
+        </button>
+        <a class="btn btn-primary btn-lg playNow" href="http://www.skyanmar.com" target="_blank" role="button">Visit site</a>
+
+        <div class="modal" id="companySite" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Yanmar dealer's website</h5>
+                <button type="button" class="close standardBtn" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="stripe">concepts</div><br>
+                <p class="lead">This is an old-school static website aiming to allow online customers to explore new products and services provided by the Chanthaburi's dealer. The drawback of this website is it is not a responsive website, which makes it not very mobile/tablet friendly. The company logo is edited using Adobe Photoshop and Illustrator. Social network icons are placed at the header to make it easier to visitors to see. Colors and palette used are mainly Red and White following original Yanmar's palette.
+
+                </p>
+                <div id="stripe">technology used</div><br>
+                <p class="space">Adobe Photoshop <span id="grey">|</span> Adobe Illustrator <span id="grey">|</span> Adobe Muse </p>
+
+                <div id="stripe">Published</div><br>
+                2015
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary btn-lg playNow" href="http://www.skyanmar.com" target="_blank" role="button">Visit site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><img src="sue-icon-plain-name.svg" width="100px" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="http://www.google.com" id="th_en"></a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#">HELLO <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link whoIam" href="#about">WHO I AM</a>
+        <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!--       <div class="col-md-12 col-sm-12 project">
+        <h3>The RGB Color Game</h3>
+        <div class="col-md-6 col-sm-6">
+        <div class="proj1"></div>
+        <a class="btn btn-primary btn-lg playNow" href="ColorGame/colorGame.html" target="_blank" role="button">Play now!</a>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+          <p>SJIfoe;fji</p>
+        </div>
+
+      <div class="col-md-12 col-sm-12 project">
+        <h3>Yanmar's website</h3>
+        <div class="proj2">
+        </div>
+        <a class="btn btn-primary btn-lg playNow" href="http://www.skyanmar.com" target="_blank" role="button">Visit site</a>
+      </div>
+      <div class="col-md-12 col-sm-12 project">
+        <h3>The Music Editor</h3>
+      </div>
+    </div> -->
 
 
 
-<!-- <div class="row">
-	<div class="col-md-9 col-md-push-3">
-		<div class="about-container"> 
-			<div class="profile"> 
-
-			</div>
-			<p1 id="test1">&emsp; &emsp; 
-				My name's Suwimol Kamlangjai, or you can call me Sue. I'm originally from Chanthaburi, Thailand. I went to study in Bangalore, India for five years before coming to the United States for higher education. I'm currently pursuing my bachelor's degree of science in Computer Science at Northeastern University, Boston. Computer and technology have been my interests since I was young because I think technology never ends and is unstoppable; I can always seek for opportunities and challenges to develop my creativity and do new things everyday. 
-			</p1>
-</div>
-</div>
 
 
+<!-- Jumbostron -->
+
+<!-- <div class="jumbotron">
+  <h1 class="display-4">The Great (RGB) Color Game</h1>
+  
+  <div id="stripe">concepts</div><br>
+  <p class="lead">This game is for you to test <span class="space">OR</span> revise your RGB color system knowledge!
+    It is the modified version of the project I have done from an online Web Development course. The new feature "Custom" has been added in this version so that the player can customize the difficulty level they want to take challege on.
+
+  </p>
+  <div id="stripe">technology used</div><br>
+  <p class="space">HTML5 <span id="grey">|</span> CSS <span id="grey">|</span> JavaScript </p>
+
+  <div id="stripe">how to play</div><br>
+  <p class="lead">The RGB colors will be generated randomly. Your task is to guess which square matches the given RGB color. If you guess it wrong, the incorrect square will disappear and you have to try again. Otherwise, you win!
+
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="ColorGame/colorGame.html" target="_blank" role="button">Play now!</a>
+  </p>
 </div> -->
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</div>
+
+<!-- link to JS -->
+<script type="text/javascript" src="script.js"></script>
+<!-- Bootstrap JS CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</div>
-
-<div id="footer">
-	<footer>
-		<f1 class="foot">
-			<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-
-
-			<div class="col-md-12">
-				<ul class="social-network social-circle">
-					<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-			<!-- 		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li> -->
-					<!-- <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li> -->
-			<!-- 		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li> -->
-					<li><a target="_blank" href="https://www.linkedin.com/in/suwimol-kamlangjai-761353135/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-					<!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
-					<!-- <li><d3><p2>Email:</p2> kamlangjai.s@husky.neu.edu</d3></li> -->
-				</ul>				
-			</div>
-		</f1>
-
-	</footer>
-</div>
-</div>
 </html>
